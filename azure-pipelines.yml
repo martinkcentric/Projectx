@@ -36,5 +36,5 @@ steps:
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Pipeline.Workspace)'
-    artifact: 'martinkcentric.projectx.zip'
+    artifact: 'martinkcentric.projectx'
     publishLocation: 'pipeline'
